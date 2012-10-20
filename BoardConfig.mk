@@ -129,4 +129,9 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdc"
 #TW_INCLUDE_BLOBPACK := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_NO_REBOOT_RECOVERY := true
+TW_FLASH_FROM_STORAGE := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_NO_USB_STORAGE := true
+
+TWRP_CUSTOM_KEYBOARD := ../../../device/asus/tf101/recovery/hardwarekeyboard.cpp
 
